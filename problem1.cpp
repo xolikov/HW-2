@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 int main() {
-    long long int n;
+    int n;
     cin >> n;
-    if (n > INT_MIN + 1 && n < INT_MAX) cout << "YES";
+    if (n > -2147483647 && n < 2147483647) cout << "YES";
     else cout << "NO";
     return 0;
 }
